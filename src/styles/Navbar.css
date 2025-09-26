@@ -7,7 +7,8 @@ body,html,#root{
     height:100%;
     width: 100%;
     font-family:Arial,sans-serif;
-    background-color:#f4f6f8;
+    background-color:liner-gradient(135deg,#f9fafc,#eef2f6);
+    /* color:#2c3e50 */
 }
 .app-container{
     display:flex;
@@ -21,10 +22,14 @@ body,html,#root{
   padding: 1rem 2rem;
   background-color: #ffffff;
   border-bottom: 1px solid #ddd;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.08);
   position: sticky;
   top: 0;
   z-index: 1000;
+  transition:background 0.3s ease;
+}
+.navbar:hover{
+  background:#fdfdfd;
 }
 .page-content{
     flex:1;
@@ -36,6 +41,10 @@ body,html,#root{
   color: #333;
   letter-spacing:1px;
   cursor:pointer;
+  transition:transform 0.3s ease;
+}
+.logohover{
+  transform:scale(1.05);
 }
 .nav-links {
   list-style: none;
@@ -52,8 +61,9 @@ body,html,#root{
   font-size:1rem;
   font-weight:500;
   color: #34495e;
-  transition: color 0.3s ease, border-bottom 0.3s ease;
-  padding-bottom: 2px;
+  transition: color 0.3s ease;
+  padding-bottom: 4px;
+  position:relative
 }
 .nav-links li a:hover {
   color: #007bff;
@@ -61,8 +71,8 @@ body,html,#root{
 }
 .nav-links li.active a { 
   font-weight: bold;
-  color: #007bff;
-  border-bottom: 2px solid #007bff;
+  /* color: #007bff; */
+  /* border-bottom: 2px solid #007bff; */
 }
 @media (max-width:768px){
     .navbar{
