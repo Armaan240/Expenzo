@@ -12,7 +12,7 @@ Managing expenses can be boring and confusing, especially for students and begin
 
 <img width="1920" height="719" alt="Screenshot (198)" src="https://github.com/user-attachments/assets/d39b2b81-3b53-4175-ae9b-4bc268ca9336" />
 
-Check out the live demo here: [Expenzo Demo]([https://expenzo-coral.vercel.app/]
+Check out the live demo here: [Expenzo Demo](https://expenzo-coral.vercel.app/)
 ---
 ## Features
 - Retro Themed
