@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body, h1, h3, p, button, input, select, textarea {
+    font-family: 'Press Start 2P', cursive;
+}
+.dashboard {
+    padding: 1rem 2rem;
+    background-color: #1a1a1a;
+}
+.balance-card {
+    background-color: #222;
+    padding: 0.5rem 1.5rem;
+    border: 3px solid #ffcc33;
+    border-radius: 0;
+    margin-bottom: 1rem;
+    color: #ffcc33;
+    text-align: center;
+    text-shadow: 2px 2px #000;
+}
+.summary-cards {
+    display: flex;
+    gap: 1rem;
+}
+.income-card, .expense-card {
+    flex: 1;
+    background-color: #222;
+    padding: 1rem;
+    border: 3px solid #00cc33;
+    color: #00cc33;
+    border-radius: 0;
+    box-shadow: none;
+    text-align: center;
+    text-shadow: 2px 2px #000;
+}
+.add-transaction {
+    padding: 12px;
+    background-color: #0033cc;
+    color: #fff;
+    font-size: 12px;
+    border: 3px solid #fff;
+    border-radius: 0;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-transform: uppercase;
+    text-shadow: 1px 1px #000;
+}
+.add-transaction:hover {
+    background-color: #3366ff;
+    box-shadow: 0 0 8px #3366ff, 0 0 16px #0033cc;
+    text-shadow: 0 0 4px #fff, 0 0 6px #fff;
+}
+.dashboard-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.transactions-chart-row {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.transactions, .expense-chart {
+    flex: 1;
+    background-color: #222;
+    padding: 1.5rem;
+    border: 3px solid #ffcc33;
+    border-radius: 0;
+    color: #fff;
+    text-shadow: 1px 1px #000;
+}
+.transactions ul {
+    list-style: none;
+    padding: 0;
+}
+.transactions li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #555;
+    display: flex;
+    justify-content: space-between;
+}
+.chart-container {
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.chart-container canvas {
+    width: 90% !important;
+    height: 100% !important;
+}
+h3 {
+    color: #ffcc33;
+    margin-bottom: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    text-shadow: 2px 2px #000;
+}
+h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #00cc33; /* green */
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px #000;
+}
+p {
+    color: #fff;
+    margin: 5px 0;
+    font-size: 0.8rem;
+    text-shadow: 1px 1px #000;
+}
+.balance {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0033cc; 
+    text-shadow: 2px 2px #000;
+}

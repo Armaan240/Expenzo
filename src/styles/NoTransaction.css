@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+.no-transactions {
+    text-align: center;
+    padding: 20px;
+    color: #ffcc33;
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 2px 2px #000;
+    font-size: 12px;
+}
+.no-transactions-icon {
+    font-size: 50px;
+    color: #00cc33;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px #000;
+}
