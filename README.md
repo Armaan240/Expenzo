@@ -1,10 +1,10 @@
 # Expenzo 💸
 
-Expenzo is a simple 8bit retro style and interactive web app to track your expenses and manage your budget in a fun and visual way. This project was made for **YSWS Siege of HackClub**.
+- Expenzo is a simple 8bit retro style and interactive web app to track your expenses and manage your budget in a fun and visual way. This project was made for **YSWS Siege of HackClub**.
 ---
 ## Why We Made This
 ---
-Managing expenses can be boring and confusing, especially for students and beginners. We wanted to create a lightweight tool that makes tracking expenses easy, visual, and enjoyable. Plus, it was a great opportunity to experiment with **React** and **Vite** while participating in HackClub activities.
+- Managing expenses can be boring and confusing, especially for students and beginners. We wanted to create a lightweight tool that makes tracking expenses easy, visual, and enjoyable. Plus, it was a great opportunity to experiment with **React** and **Vite** while participating in HackClub activities.
 ---
 ## Demo
 
